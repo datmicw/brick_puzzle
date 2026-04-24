@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 
     [Header("Âm thanh hệ thống")]
     [SerializeField]
-    private AudioSource bgmSource;
+    private AudioSource bgmSource; // Nguồn âm thanh nền
 
     [SerializeField]
     private AudioSource sfxSource;
