@@ -14,7 +14,9 @@ GameObject:
   - component: {fileID: 1040800335923638938}
   - component: {fileID: 7748602304460763779}
   - component: {fileID: 8361359904917158321}
-  - component: {fileID: 6117439760222854969}
+  - component: {fileID: 7058904723220004609}
+  - component: {fileID: 3727320090954360536}
+  - component: {fileID: 545870711046248907}
   m_Layer: 0
   m_Name: Cube_Player
   m_TagString: Untagged
@@ -145,8 +147,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a77a931169720934fafe9e533aa229d5, type: 3}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 0c77c6fe876619341a5ab901c57780f4, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -231,7 +233,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &6117439760222854969
+--- !u!114 &7058904723220004609
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -240,7 +242,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8337396895707073713}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e573b4c65f35e33408b2fa9cb30e0c9a, type: 3}
+  m_Script: {fileID: 11500000, guid: 404cadf6bec8fd445b69064c7f2c2080, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rollSpeed: 0.2
@@ -249,5 +251,29 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   goalTag: Goal
-  audioSource: {fileID: 8361359904917158321}
-  moveSFX: {fileID: 8300000, guid: a77a931169720934fafe9e533aa229d5, type: 3}
+--- !u!114 &3727320090954360536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8337396895707073713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9871937acef1f5a458f32823621b21d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &545870711046248907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8337396895707073713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3133084ea668ff14cbab92d428c2ed8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSource: {fileID: 8361359904917158321}
+  moveSFX: {fileID: 8300000, guid: 0c77c6fe876619341a5ab901c57780f4, type: 3}
