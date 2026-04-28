@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Goal
+  - Button_Open
+  - Button_Close
+  - Button
   layers:
   - Default
   - TransparentFX

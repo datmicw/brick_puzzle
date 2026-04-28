@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/New Scene.unity
+    path: Assets/Scenes/essy.unity
     guid: de6b8f6feaa01ed40825252425eddb02
   m_configObjects: {}
